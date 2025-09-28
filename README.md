@@ -73,7 +73,7 @@ systemctl enable nginx
 nginx -t && systemctl reload nginx
 ```
 ```bash
-./server -listen "127.0.0.1:8080" -key "a-custom-pass" -path "/ws -dial-timeout 7*time.Second -io-timeout 90*time.Second -ping-every 20*time.Second"
+./server -listen "127.0.0.1:8080" -key "a-custom-pass" -path "/ws" -dial-timeout 7*time.Second -io-timeout 90*time.Second -ping-every 20*time.Second
 ```
 
 
